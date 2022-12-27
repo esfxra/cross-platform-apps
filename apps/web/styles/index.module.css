@@ -1,0 +1,16 @@
+.container {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+.innerContainer {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+  .innerContainer {
+    max-width: 680px;
+  }
+}
